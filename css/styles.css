@@ -1,1 +1,195 @@
-/*** Add your styles here **/
+/*
+Colors:
+green: #C5D5CB
+green-hover : #AEBEB4
+black: color: #161616;
+blue: #98D2EB;
+blue-hover: #8abed5
+grey text, color: #979797;
+font-family: 'Italianno', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/
+
+/***********************************
+***** General
+***********************************/
+.container {
+  border: 1px solid red;
+}
+
+body {
+  background-color: #fff;
+  color: #161616;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-top: 2rem;
+}
+
+h2,
+h3 {
+  font-family: 'Lato', sans-serif;
+  color: #161616;
+  line-height: 2.5rem;
+}
+
+h2 span {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+h3 span {
+  font-size: 2.5rem;
+}
+
+h2 span,
+h3 span {
+  font-family: 'Italianno', cursive;
+  display: block;
+  color: #98D2EB;
+}
+
+.py-6 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+
+
+/***********************************
+***** Navigation
+***********************************/
+
+.navigation {
+  background-color: #C5D5CB;
+}
+
+nav.main-nav {
+  background-image: url("../img/border_horizontal.png"),
+                    url("../img/border_horizontal.png");
+  background-repeat: repeat-x;
+  background-position: 0px top, 0px bottom;
+}
+
+nav.main-nav .nav-item:hover {
+  background-color: #AEBEB4;
+  border-radius: 3px;
+}
+
+nav.main-nav .nav-item {
+  transition: background-color .3s ease;
+}
+
+nav.main-nav .nav-link {
+  font-size: 1.2rem;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+/***********************************
+***** Carousel-caption
+***********************************/
+.carousel-caption h3 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  color: #fff;
+}
+
+
+/***********************************
+***** Welcome
+***********************************/
+
+.welcome p {
+  font-size: 1.4rem;
+  color: #979797;
+  font-family: 'Lato', sans-serif;
+}
+
+/***********************************
+***** Image Links
+***********************************/
+
+.image-links {
+  border: 1px solid #ededed;
+
+}
+
+.image-links img {
+  border: 6px solid white;
+  -webkit-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  transition: transform .3s ease;
+}
+
+.image-links img:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.image-info {
+  background-color: #f4f4f4;
+  margin-top: -50px;
+}
+
+.image-info .btn-success {
+  background-color: #98D2EB;
+  border: none;
+  border-radius: 0;
+  padding: 1rem 0;
+}
+
+.image-info .btn-success:hover {
+  background-color: #8abed5;
+}
+
+.image-info h3 {
+  font-size: 1.8rem;
+}
+
+
+/***********************************
+***** Hours
+***********************************/
+
+.business-hours {
+  background-color: #C5D5CB;
+}
+
+.bg-hours {
+  background-image: url("../img/bg_hours2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 300px;
+  background-clip: content-box;
+}
+
+.business-hours .table-danger {
+  background-color: #fff;
+}
+
+.business-hours .table-danger:hover {
+  background-color: #AEBEB4;
+}
+
+.table {
+  border: 2px solid #AEBEB4;
+  margin-top: 75px;
+}
+
+.table td,
+.table th {
+  border: none;
+}
+
+.table thead th {
+  border-bottom: none;
+}
