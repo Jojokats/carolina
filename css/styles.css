@@ -193,3 +193,31 @@ nav.main-nav .nav-link {
 .table thead th {
   border-bottom: none;
 }
+
+
+/***********************************
+***** Products
+***********************************/
+
+.products .card a {
+  color: #161616;
+}
+
+.products .card a:hover {
+  text-decoration: none;
+}
+
+.products .card h3 {
+  font-size: 1.5rem;
+  color: #98D2EB;
+}
+
+.products .card p {
+  font-size: .9rem;
+}
+
+.products .card p.price {
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+  color: #979797;
+}
