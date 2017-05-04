@@ -15,7 +15,8 @@ font-family: 'Raleway', sans-serif;
 /***********************************
 ***** General
 ***********************************/
-.container {
+.container,
+.container-fluid {
   border: 1px solid red;
 }
 
@@ -165,7 +166,7 @@ nav.main-nav .nav-link {
 }
 
 .bg-hours {
-  background-image: url("../img/bg_hours2.jpg");
+  background-image: url("../img/girl-sm.jpg");
   background-repeat: no-repeat;
   background-position: center;
   min-height: 300px;
@@ -201,6 +202,7 @@ nav.main-nav .nav-link {
 
 .products .card a {
   color: #161616;
+    cursor: pointer;
 }
 
 .products .card a:hover {
@@ -220,4 +222,46 @@ nav.main-nav .nav-link {
   font-size: 1.5rem;
   font-family: 'Lato', sans-serif;
   color: #979797;
+}
+
+/***********************************
+***** Appointment
+***********************************/
+
+.appointment {
+  background-image: url(../img/cactus-sm.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+@media (min-width: 992px) {
+  .appointment {
+    background-size: cover;
+  }
+}
+
+.appointment h3 {
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 4rem;
+}
+
+.appointment p {
+  /*line-height: 2rem;*/
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.appointment .btn-primary {
+  background-color: #98D2EB;
+  border: none;
+  border-radius: 0;
+  padding: 1rem 5rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.appointment .btn-primary:hover {
+  background-color: #8abed5;
 }
