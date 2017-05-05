@@ -61,7 +61,50 @@ h3 span {
   padding-bottom: 4rem;
 }
 
+.pt-6 {
+  padding-top: 4rem;
+}
 
+/***********************************
+***** Social Menu
+***********************************/
+
+.socials ul li {
+    display: block;
+    position: relative;
+    display: inline-block;
+}
+
+.socials ul li a::before {
+  font-family: 'FontAwesome';
+  display: inline-block;
+  vertical-align: top;
+  padding: 0 0.4rem;
+  content: '\f08e';
+  color: #98D2EB;
+  -webkit-font-smoothing: antialiased;
+  font-size: 2rem;
+}
+
+.socials ul li a[href*="facebook.com"]::before {
+  content: '\f230';
+}
+
+.socials ul li a[href*="twitter.com"]::before {
+  content: '\f081';
+}
+
+.socials ul li a[href*="instagram.com"]::before {
+  content: '\f16d';
+}
+
+.socials ul li a[href*="pinterest.com"]::before {
+  content: '\f0d2';
+}
+
+.socials ul li a[href*="youtube.com"]::before {
+  content: '\f16a';
+}
 
 /***********************************
 ***** Navigation
@@ -183,7 +226,8 @@ nav.main-nav .nav-link {
 
 .table {
   border: 2px solid #AEBEB4;
-  margin-top: 75px;
+  margin-top: 50px;
+  margin-bottom: 0;
 }
 
 .table td,
@@ -202,7 +246,7 @@ nav.main-nav .nav-link {
 
 .products .card a {
   color: #161616;
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .products .card a:hover {
@@ -264,4 +308,21 @@ nav.main-nav .nav-link {
 
 .appointment .btn-primary:hover {
   background-color: #8abed5;
+}
+
+
+/***********************************
+***** Footer
+***********************************/
+
+.site-footer h3 {
+  font-size: 1.8rem;
+}
+.site-footer p.copyright {
+    font-family: 'Lato', sans-serif;
+    color: #979797;
+}
+
+.site-footer .socials {
+  padding-left: 0;
 }
