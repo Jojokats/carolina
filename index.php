@@ -1,62 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Italianno|Lato:400,900|Raleway:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
-  <body>
-    <!-- Header -->
-    <header class="site-header container">
-      <div class="row justify-content-between">
-        <div class="col-8 offset-2 col-lg-4 offset-lg-0 pt-1 pb-2">
-          <img src="img/carolina-logo3-xs.svg" class="img-fluid mx-auto d-block" alt="logo">
-        </div>
-
-        <div class="col-12 col-lg-4">
-          <nav class="socials text-center text-md-right pt-4">
-            <ul>
-              <li><a href="http://facebook.com"><span class="sr-only">Facebook</span></a></li>
-              <li><a href="http://twitter.com"><span class="sr-only">Twitter</span></a></li>
-              <li><a href="http://instagram.com"><span class="sr-only">Instagram</span></a></li>
-              <li><a href="http://pinterest.com"><span class="sr-only">Pinterest</span></a></li>
-              <li><a href="http://youtube.com"><span class="sr-only">Youtube</span></a></li>
-            </ul>
-          </nav>
-        </div>
-
-      </div><!-- /justify-content-between -->
-    </header>
-
-    <!-- Navigation -->
-    <div class="navigation py-1">
-      <nav class="main-nav py-1">
-        <div class="container">
-          <ul class="nav nav-justified flex-column flex-sm-row">
-            <li class="nav-item">
-              <a href="index.html" class="nav-link">Home</a>
-            </li>
-            <li class="nav-item">
-              <a href="about.html" class="nav-link">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Services</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Products</a>
-            </li>
-            <li class="nav-item">
-              <a href="#" class="nav-link">Contact Us</a>
-            </li>
-          </ul>
-
-        </div><!-- /container -->
-      </nav><!-- /main-nav -->
-    </div><!-- /navigation -->
+<?php
+  $title = "Home";
+  include 'templates/header.php';
+  include 'templates/navigation.php';
+?>
 
     <!-- Main Slider -->
     <div class="container">
@@ -70,6 +16,14 @@
         <div class="carousel-inner" role="listbox">
 
           <div class="carousel-item active">
+            <img src="img/waterfall.jpg" alt="our facilities" class="d-block img-fluid">
+
+            <div class="carousel-caption d-none d-md-block">
+              <h3 class="text-uppercase">Chill out, relax &amp; recharge</h3>
+            </div>
+          </div><!-- /carousel-item -->
+
+          <div class="carousel-item">
             <img src="img/slide_01.jpg" alt="our facilities" class="d-block img-fluid">
 
             <div class="carousel-caption d-none d-md-block">
@@ -84,13 +38,7 @@
               <h3 class="text-uppercase">Learn About Our Services</h3>
             </div>
           </div><!-- /carousel-item -->
-          <div class="carousel-item">
-            <img src="img/spa.jpg" alt="our facilities" class="d-block img-fluid">
 
-            <div class="carousel-caption d-none d-md-block">
-              <h3 class="text-uppercase"></h3>
-            </div>
-          </div><!-- /carousel-item -->
 
           <a href="#main-slider" class="carousel-control-prev" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -107,10 +55,10 @@
 
     <!-- Welcome section -->
     <section class="welcome py-5">
-      <h2 class="text-center text-uppercase">
-        <span class="text-lowercase">Welcome to our new</span> Spa salon
+      <h2 class="text-center text-uppercase pb-2">
+        <span class="text-lowercase">Welcome to the exclusive</span> Carolina Spa salon
       </h2>
-      <p class="text-center mt-4">Feel renewed and energized with our professional <br>massage therapists.</p>
+      <p class="text-center mt-4">Escape into our relaxing therapeutic spa environment. <br>Feel renewed and energized with our professional massage therapists.</p>
     </section>
 
     <div class="container pb-5">
@@ -166,56 +114,7 @@
       <div class="container py-6">
         <div class="row">
           <div class="col-md-6">
-            <h2 class="text-center text-uppercase mt-5 pb-3">Business Hours</h2>
-            <p class="text-center mt-1">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.  illo iure consectetur. Quisquam perferendis dolor. Dolorem iure, optio ipsa. Dolore, consectetur!
-            </p>
-            <table class="table table-hover text-center">
-                 <thead class="table-danger">
-                     <tr>
-                         <th class="text-center">Day</th>
-                         <th class="text-center">From</th>
-                         <th class="text-center">To</th>
-                     </tr>
-                 </thead>
-                 <tbody>
-                     <tr>
-                         <td>Monday</td>
-                         <td>09:00</td>
-                         <td>19:00</td>
-                     </tr>
-                     <tr>
-                         <td>Tuesday</td>
-                         <td>09:00</td>
-                         <td>19:00</td>
-                     </tr>
-                     <tr>
-                         <td>Wednesday</td>
-                         <td>09:00</td>
-                         <td>19:00</td>
-                     </tr>
-                     <tr>
-                         <td>Thursday</td>
-                         <td>09:00</td>
-                         <td>19:00</td>
-                     </tr>
-                     <tr>
-                         <td>Friday</td>
-                         <td>09:00</td>
-                         <td>19:00</td>
-                     </tr>
-                     <tr>
-                         <td>Saturday</td>
-                         <td>09:00</td>
-                         <td>14:00</td>
-                     </tr>
-                     <tr>
-                         <td>Sunday</td>
-                         <td>Closed</td>
-                         <td>Closed</td>
-                     </tr>
-                 </tbody>
-           </table>
+            <?php include 'templates/business_hours.php'; ?>
           </div><!-- /col-md-6 -->
 
           <div class="col-md-6 bg-hours"></div>
@@ -297,52 +196,8 @@
       </div><!-- /row -->
     </div><!-- /appointment -->
 
-    <!-- Footer -->
-    <footer class="site-footer pt-6">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 col-12  mb-5">
-            <h3 class="text-uppercase text-center pb-4">About Us</h3>
-            <p>Consectetur ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos velit non recusandae voluptatum facere placeat.</p>
-          </div>
-          <div class="col-md-4 col-12 mb-5">
-            <h3 class="text-uppercase text-center pb-4">Open Hours</h3>
-            <p class="text-center mb-0">Mon-Fri: 9AM - 7 PM</p>
-            <p class="text-center mb-0">Saturday: 10AM - 2 PM</p>
-            <p class="text-center mb-0">Sunday: Closed</p>
-          </div>
-          <div class="col-md-4 col-12">
-            <h3 class="text-uppercase text-center pb-4">Contact:</h3>
-            <p class="mb-0 text-center">153 East Sunnyslope Avenue</p>
-            <p class="text-center">Lanssdowne, PA 19050</p>
+    <?php
 
-            <div class="social-nav">
-              <nav class="socials text-center pt-4">
-                <ul class="socials">
-                  <li><a href="http://facebook.com"><span class="sr-only">Facebook</span></a></li>
-                  <li><a href="http://twitter.com"><span class="sr-only">Twitter</span></a></li>
-                  <li><a href="http://instagram.com"><span class="sr-only">Instagram</span></a></li>
-                  <li><a href="http://pinterest.com"><span class="sr-only">Pinterest</span></a></li>
-                  <li><a href="http://youtube.com"><span class="sr-only">Youtube</span></a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
+      include 'templates/footer.php';
 
-          <div class="w-100"></div>
-          <hr class="w-100">
-
-          <p class="copyright text-center w-100">Carolina Spa &amp; Salon 2017</p>
-
-        </div><!-- /row -->
-      </div><!-- /container -->
-    </footer>
-
-
-
-    <script src="js/jquery.slim.js"></script>
-    <script src="js/tether.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </body>
-</html>
+    ?>

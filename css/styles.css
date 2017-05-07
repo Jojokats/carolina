@@ -15,9 +15,8 @@ font-family: 'Raleway', sans-serif;
 /***********************************
 ***** General
 ***********************************/
-.container,
-.container-fluid {
-  border: 1px solid red;
+.container {
+  border: 1px solid orange;
 }
 
 body {
@@ -150,6 +149,12 @@ nav.main-nav .nav-link {
 /***********************************
 ***** Welcome
 ***********************************/
+
+.welcome h2 {
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  line-height: 3rem;
+}
 
 .welcome p {
   font-size: 1.4rem;
@@ -325,4 +330,55 @@ nav.main-nav .nav-link {
 
 .site-footer .socials {
   padding-left: 0;
+}
+
+/******************************************************
+***** Internal Pages
+**********************************************/
+
+/***********************************
+***** About
+***********************************/
+
+.hero {
+  position: relative;
+}
+
+.hero h2 {
+  background-color: #98D2EB;
+  position: absolute;
+  bottom: 2rem;
+  right: 0;
+  padding: 1rem 2rem 1rem 6rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.main-content h2 {
+  margin-top: 1rem;
+}
+
+.main-content p {
+  line-height: 1.8rem;
+}
+
+aside .sidebar thead {
+  background-color: #98D2EB;
+  color: #fff;
+  transition: background-color .3s ease;
+}
+
+.sidebar .hours p {
+  font-size: 1.5rem;
+}
+
+aside .sidebar table {
+  border: 2px solid #98D2EB;
+}
+
+aside .sidebar table .table-danger tr:hover {
+  background-color: #8abed5;
+  transition: background-color .3s ease;
 }
