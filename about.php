@@ -17,15 +17,75 @@
 <div class="container pt-4">
   <div class="row">
 
-    <main class="col-lg-8 main-content">
+  <main class="col-lg-8 main-content">
         <h2 class="d-block d-md-none text-uppercase text-center">About Us</h2>
         <p class="mt-3">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Adipisicing elit sit amet, consectetur , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis consequat. Duis aute eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt est laborum.
           <p>
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id.
           </p>
         </p>
+
+        <div class="facilities-gallery" data-target="#image_1" data-toggle="modal">
+
+            <h3 class="text-center text-uppercase p-5"><span class="text-lowercase">checkout Our</span> facilities</h3>
+
+            <a href="#" data-target="image_1" data-toggle="modal">
+              <img src="img/gallery_thumb_01.jpg" class="rounded" alt="image-1" />
+            </a>
+            <a href="#" data-target="image_2" data-toggle="modal">
+              <img src="img/gallery_thumb_02.jpg" class="rounded" alt="image-1" />
+            </a>
+            <a href="#" data-target="image_3" data-toggle="modal">
+              <img src="img/gallery_thumb_03.jpg" class="rounded" alt="image-1" />
+            </a>
+
+            <!-- 1st modal -->
+            <div class="modal fade" id="image_1" tabindex="-1" role="dialog"
+          aria-labelledby ="image_1" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                  <div class="model-content">
+                    <div class="modal-body">
+                        <img src="img/gallery_large_03.jpg" class="img-fluid" alt="image-1" />
+                    </div><!-- / modal-body -->
+                  </div><!-- / model-content -->
+
+                </div><!-- / modal-dialog -->
+            </div><!-- / modal -->
+
+            <!-- 2nd modal -->
+            <div class="modal fade" id="image_2" tabindex="-1" role="dialog"
+          aria-labelledby ="image_2" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                  <div class="model-content">
+                    <div class="modal-body">
+                        <img src="img/gallery_large_02.jpg" class="img-fluid" alt="image-1" />
+                    </div><!-- / modal-body -->
+                  </div><!-- / model-content -->
+
+                </div><!-- / modal-dialog -->
+            </div><!-- / modal -->
+
+            <!-- 3rd modal -->
+            <div class="modal fade" id="image_3" tabindex="-1" role="dialog"
+          aria-labelledby ="image_3" aria-hidden="true">
+                <div class="modal-dialog modal-lg" role="document">
+
+                  <div class="model-content">
+                    <div class="modal-body">
+                        <img src="img/gallery_large_03.jpg" class="img-fluid" alt="image-1" />
+                    </div><!-- / modal-body -->
+                  </div><!-- / model-content -->
+
+                </div><!-- / modal-dialog -->
+            </div><!-- / modal -->
+
+        </div><!-- / facilities-gallery -->
     </main>
+
+
 
     <aside class="col-lg-4">
       <div class="sidebar hours">

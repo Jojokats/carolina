@@ -221,11 +221,11 @@ nav.main-nav .nav-link {
   background-clip: content-box;
 }
 
-.business-hours .table-danger {
+.business-hours .table-dangers {
   background-color: #fff;
 }
 
-.business-hours .table-danger:hover {
+.business-hours .table-dangers:hover {
   background-color: #AEBEB4;
 }
 
@@ -345,7 +345,7 @@ nav.main-nav .nav-link {
 }
 
 .hero h2 {
-  background-color: #98D2EB;
+  background-color: #C5D5CB;
   position: absolute;
   bottom: 2rem;
   right: 0;
@@ -378,7 +378,84 @@ aside .sidebar table {
   border: 2px solid #98D2EB;
 }
 
-aside .sidebar table .table-danger tr:hover {
+aside .sidebar table .table-dangers tr:hover {
   background-color: #8abed5;
   transition: background-color .3s ease;
 }
+
+/***********************************
+***** Services
+***********************************/
+
+#ourservices {
+  padding-top: 50px;
+  padding-bottom: 90px;
+}
+
+#services .card-header {
+  background-color: #C5D5CB;
+}
+
+#services .card-header h3  a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  width: 100%;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+}
+
+#services .card-header:hover  {
+  background-color: #AEBEB4;
+  transition: background-color .3s ease;
+}
+
+main .card-block {
+  line-height: 1.8rem;
+}
+
+aside.discount {
+  background-color: #98D2EB;
+  color: #fff;
+  -moz-background-clip: content-box;
+  -webkit-background-clip: content-box;
+  background-clip: content-box;
+}
+
+aside.discount .boxy {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+aside.discount h3 {
+  color: #fff;
+}
+
+aside.discount .coupon p {
+  line-height: 2.5rem;
+}
+
+aside.discount .coupon {
+  border: 2px dashed #fff;
+  font-family: 'Lato', sans-serif;
+}
+
+aside.discount .coupon p span {
+  display: block;
+}
+
+
+
+/*
+Colors:
+green: #C5D5CB
+green-hover : #AEBEB4
+black: color: #161616;
+blue: #98D2EB;
+blue-hover: #8abed5
+grey text, color: #979797;
+font-family: 'Italianno', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Raleway', sans-serif;
+
+*/

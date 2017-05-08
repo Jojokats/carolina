@@ -5,9 +5,9 @@
   Lorem ipsum dolor sit amet, consectetur adipisicing elit.  illo iure consectetur. Quisquam perferendis dolor. Dolorem iure, optio ipsa. Dolore, consectetur!
 </p>
 <table class="table table-hover text-center">
-     <thead class="table-danger">
+     <thead class="table-dangers">
          <tr>
-             <th class="text-center first">Day</th>
+             <th class="text-center ">Day</th>
              <th class="text-center">From</th>
              <th class="text-center">To</th>
          </tr>
