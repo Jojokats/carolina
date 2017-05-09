@@ -31,10 +31,10 @@
             <h3 class="text-center text-uppercase p-5"><span class="text-lowercase">checkout Our</span> facilities</h3>
 
             <a href="#" data-target="image_1" data-toggle="modal">
-              <img src="img/gallery_thumb_01.jpg" class="rounded" alt="image-1" />
+              <img src="img/gallery_thumb_01.jpg" class="rounded gallery" alt="image-1" />
             </a>
             <a href="#" data-target="image_2" data-toggle="modal">
-              <img src="img/gallery_thumb_02.jpg" class="rounded" alt="image-1" />
+              <img src="img/gallery_thumb_02.jpg" class="rounded gallery" alt="image-1" />
             </a>
             <a href="#" data-target="image_3" data-toggle="modal">
               <img src="img/gallery_thumb_03.jpg" class="rounded" alt="image-1" />
@@ -47,7 +47,7 @@
 
                   <div class="model-content">
                     <div class="modal-body">
-                        <img src="img/gallery_large_03.jpg" class="img-fluid" alt="image-1" />
+                        <img src="img/gallery_large_01.jpg" class="img-fluid" alt="image-1" />
                     </div><!-- / modal-body -->
                   </div><!-- / model-content -->
 
@@ -88,7 +88,7 @@
 
 
     <aside class="col-lg-4">
-      <div class="sidebar hours">
+      <div class="sidebar hours mb-5">
         <?php include 'templates/business_hours.php'; ?>
       </div><!-- /sidebar -->
     </aside>
@@ -97,7 +97,7 @@
 </div><!-- /container -->
 
 <?php
-
+  include 'templates/appointment.php';
   include 'templates/footer.php';
 
 ?>

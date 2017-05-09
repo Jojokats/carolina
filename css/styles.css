@@ -246,13 +246,27 @@ nav.main-nav .nav-link {
 ***** Products
 ***********************************/
 
+.products .card {
+    overflow: hidden;
+}
+
 .products .card a {
   color: #161616;
   cursor: pointer;
+  -webkit-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  transition: transform .3s ease;
 }
 
 .products .card a:hover {
   text-decoration: none;
+}
+
+.products .card a:hover {
+
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .products .card h3 {
@@ -361,6 +375,22 @@ nav.main-nav .nav-link {
   line-height: 1.8rem;
 }
 
+.facilities-gallery a img {
+  -webkit-transition: transform .3s ease;
+  -ms-transition: transform .3s ease;
+  transition: transform .3s ease;
+}
+
+.facilities-gallery a img:hover {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.facilities-gallery a img.gallery {
+  margin-right: 10px;
+}
+
 aside .sidebar thead {
   background-color: #98D2EB;
   color: #fff;
@@ -373,6 +403,7 @@ aside .sidebar thead {
 
 aside .sidebar table {
   border: 2px solid #98D2EB;
+  margin-top: 30px;
 }
 
 aside .sidebar table .table-dangers tr:hover {

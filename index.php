@@ -72,7 +72,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">Learn more</span> about us
                 </h3>
-                <a href="about.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="about.php" class="btn btn-success text-uppercase btn-block mt-5">learn more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
@@ -86,7 +86,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">About</span>Our Services
                 </h3>
-                <a href="services.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="services.php" class="btn btn-success text-uppercase btn-block mt-5">learn more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
@@ -100,7 +100,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">visit</span> our store
                 </h3>
-                <a href="products.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="products.php" class="btn btn-success text-uppercase btn-block mt-5">learn more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
