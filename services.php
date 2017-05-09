@@ -17,8 +17,8 @@
 <div class="container" id="ourservices">
   <div class="row">
 
-    <main class="col-lg-8 main-content mt-5">
-        <h2 class="d-block d-md-none text-uppercase text-center">Services</h2>
+    <main class="col-lg-8 main-content mt-3">
+        <h2 class="d-block d-md-none text-uppercase text-center pb-4">Services</h2>
 
         <div id="services" role="tablist" aria-multiselectable="true">
           <div class="card">

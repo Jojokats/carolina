@@ -15,9 +15,6 @@ font-family: 'Raleway', sans-serif;
 /***********************************
 ***** General
 ***********************************/
-.container {
-  border: 1px solid orange;
-}
 
 body {
   background-color: #fff;
@@ -306,7 +303,7 @@ nav.main-nav .nav-link {
 .appointment .btn-primary {
   background-color: #98D2EB;
   border: none;
-  border-radius: 0;
+  border-radius: 3px;
   padding: 1rem 5rem;
   font-family: 'Lato', sans-serif;
 }
@@ -349,7 +346,7 @@ nav.main-nav .nav-link {
   position: absolute;
   bottom: 2rem;
   right: 0;
-  padding: 1rem 2rem 1rem 6rem;
+  padding: 1rem 1.5rem 1rem 4rem;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   font-size: 3rem;
@@ -414,7 +411,8 @@ main .card-block {
   line-height: 1.8rem;
 }
 
-aside.discount {
+aside.discount,
+aside.product-description {
   background-color: #98D2EB;
   color: #fff;
   -moz-background-clip: content-box;
@@ -427,7 +425,8 @@ aside.discount .boxy {
   padding-right: 15px;
 }
 
-aside.discount h3 {
+aside.discount h3,
+aside.product-description h3 {
   color: #fff;
 }
 
@@ -444,6 +443,40 @@ aside.discount .coupon p span {
   display: block;
 }
 
+/***********************************
+***** Product
+***********************************/
+
+.back {
+  background-color: #C5D5CB;
+  border-radius: 3px;
+  border: none;
+}
+
+.back:hover {
+  background-color: #AEBEB4;
+}
+
+/***********************************
+***** Contact form
+***********************************/
+
+.contact-form {
+  border: 2px solid #e4e4e4;
+  background-color: #fbfafa;
+}
+
+.contact-form .btn-primary {
+  background-color: #98D2EB;
+  border: none;
+  border-radius: 3px;
+  padding: 1rem 6rem;
+}
+
+.contact-form .btn-primary:hover {
+  cursor: pointer;
+  background-color: #8abed5;
+}
 
 
 /*

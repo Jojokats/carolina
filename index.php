@@ -10,7 +10,7 @@
         <ol class="carousel-indicators">
           <li class="active" data-target="#main-slider" data-slide-to="0"></li>
           <li data-target="#main-slider" data-slide-to="1"></li>
-          <li data-target="#main-slider" data-slide-to="0\2"></li>
+          <li data-target="#main-slider" data-slide-to="2"></li>
         </ol><!-- /carousel-indicators -->
 
         <div class="carousel-inner" role="listbox">
@@ -32,7 +32,7 @@
           </div><!-- /carousel-item -->
 
           <div class="carousel-item">
-            <img src="img/wellness2.jpg" alt="our facilities" class="d-block img-fluid">
+            <img src="img/wellness.jpg" alt="our facilities" class="d-block img-fluid">
 
             <div class="carousel-caption d-none d-md-block">
               <h3 class="text-uppercase">Learn About Our Services</h3>
@@ -72,7 +72,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">Learn more</span> about us
                 </h3>
-                <a href="#" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="about.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
@@ -86,7 +86,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">About</span>Our Services
                 </h3>
-                <a href="#" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="services.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
@@ -100,7 +100,7 @@
                 <h3 class="text-center text-uppercase">
                   <span class="text-lowercase">visit</span> our store
                 </h3>
-                <a href="#" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
+                <a href="products.php" class="btn btn-success text-uppercase btn-block mt-5">read more</a>
               </div><!-- /image-info -->
             </div><!-- /row -->
           </div><!-- /image-links -->
@@ -131,7 +131,7 @@
       <div class="row py-4">
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
-            <a href="#">
+            <a href="products.php">
               <img src="img/product-a.jpg" class="card-img-top img-fluid" alt="product-1">
               <div class="card-block">
                 <h3 class="card-title text-center text-uppercase product">Product 1</h3>
@@ -144,7 +144,7 @@
 
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
-            <a href="#">
+            <a href="products.php">
               <img src="img/product-b.jpg" class="card-img-top img-fluid" alt="product-1">
               <div class="card-block">
                 <h3 class="card-title text-center text-uppercase product">Product 2</h3>
@@ -157,7 +157,7 @@
 
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
-            <a href="#">
+            <a href="products.php">
               <img src="img/product-c.jpg" class="card-img-top img-fluid" alt="product-1">
               <div class="card-block">
                 <h3 class="card-title text-center text-uppercase product">Product 3</h3>
@@ -170,7 +170,7 @@
 
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
-            <a href="#">
+            <a href="products.php">
               <img src="img/product-d.jpg" class="card-img-top img-fluid" alt="product-1">
               <div class="card-block">
                 <h3 class="card-title text-center text-uppercase product">Product 4</h3>
@@ -190,5 +190,4 @@
     <?php
       include 'templates/appointment.php';
       include 'templates/footer.php';
-
     ?>

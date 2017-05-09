@@ -33,7 +33,7 @@
       <div class="w-100"></div>
       <hr class="w-100">
 
-      <p class="copyright text-center w-100">Carolina Spa &amp; Salon 2017</p>
+      <p class="copyright text-center w-100">Carolina Spa Salon 2017</p>
 
     </div><!-- /row -->
   </div><!-- /container -->
