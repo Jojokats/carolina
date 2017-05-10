@@ -26,7 +26,7 @@
           </p>
         </p>
 
-        <div class="facilities-gallery" data-target="#image_1" data-toggle="modal">
+        <div class="facilities-gallery pb-5" data-target="#image_1" data-toggle="modal">
 
             <h3 class="text-center text-uppercase p-5"><span class="text-lowercase">checkout Our</span> facilities</h3>
 

@@ -8,7 +8,7 @@
 <div class="container mt-5">
   <div class="row no-gutters">
     <div class="col-12 hero">
-      <img src="img/store.jpg" class="img-fluid" alt="About Us"/>
+      <img src="img/makeup-brush.jpg" class="img-fluid" alt="About Us"/>
       <h2 class="text-uppercase d-none d-md-block">Products</h2>
     </div>
   </div>
@@ -81,11 +81,11 @@
           <div class="col-6 col-md-3 mb-5 mb-md-0">
             <div class="card">
               <a href="product.php">
-                <img src="img/product-a.jpg" class="card-img-top img-fluid" alt="product-1">
+                <img src="img/product-e.jpg" class="card-img-top img-fluid" alt="product-1">
                 <div class="card-block">
                   <h3 class="card-title text-center text-uppercase product">Product 5</h3>
                   <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
-                  <p class="price text-center">$ 25</p>
+                  <p class="price text-center">$ 60</p>
                 </div>
               </a>
             </div><!-- /card -->
@@ -94,11 +94,11 @@
           <div class="col-6 col-md-3 mb-5 mb-md-0">
             <div class="card">
               <a href="product.php">
-                <img src="img/product-b.jpg" class="card-img-top img-fluid" alt="product-1">
+                <img src="img/product-f.jpg" class="card-img-top img-fluid" alt="product-1">
                 <div class="card-block">
                   <h3 class="card-title text-center text-uppercase product">Product 6</h3>
                   <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
-                  <p class="price text-center">$ 50</p>
+                  <p class="price text-center">$ 70</p>
                 </div>
               </a>
             </div><!-- /card -->
@@ -107,11 +107,11 @@
           <div class="col-6 col-md-3 mb-5 mb-md-0">
             <div class="card">
               <a href="product.php">
-                <img src="img/product-c.jpg" class="card-img-top img-fluid" alt="product-1">
+                <img src="img/product-g.jpg" class="card-img-top img-fluid" alt="product-1">
                 <div class="card-block">
                   <h3 class="card-title text-center text-uppercase product">Product 7</h3>
                   <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
-                  <p class="price text-center">$ 30</p>
+                  <p class="price text-center">$ 90</p>
                 </div>
               </a>
             </div><!-- /card -->
@@ -120,11 +120,11 @@
           <div class="col-6 col-md-3 mb-5 mb-md-0">
             <div class="card">
               <a href="product.php">
-                <img src="img/product-d.jpg" class="card-img-top img-fluid" alt="product-1">
+                <img src="img/product-h.jpg" class="card-img-top img-fluid" alt="product-1">
                 <div class="card-block">
                   <h3 class="card-title text-center text-uppercase product">Product 8</h3>
                   <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
-                  <p class="price text-center">$ 80</p>
+                  <p class="price text-center">$ 40</p>
                 </div>
               </a>
             </div><!-- /card -->
