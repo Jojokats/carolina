@@ -129,18 +129,6 @@
       </h2>
 
       <div class="row py-4">
-        <div class="col-6 col-md-3 mb-5 mb-md-0">
-          <div class="card">
-            <a href="products.php">
-              <img src="img/product-a.jpg" class="card-img-top img-fluid" alt="product-1">
-              <div class="card-block">
-                <h3 class="card-title text-center text-uppercase product">Product 1</h3>
-                <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
-                <p class="price text-center">$ 25</p>
-              </div>
-            </a>
-          </div><!-- /card -->
-        </div><!-- /col-6 col-md-3 -->
 
         <div class="col-6 col-md-3 mb-5 mb-md-0">
           <div class="card">
@@ -180,10 +168,24 @@
             </a>
           </div><!-- /card -->
         </div><!-- /col-6 col-md-3 -->
+        
+        <div class="col-6 col-md-3 mb-5 mb-md-0">
+          <div class="card">
+            <a href="products.php">
+              <img src="img/product-d.jpg" class="card-img-top img-fluid" alt="product-1">
+              <div class="card-block">
+                <h3 class="card-title text-center text-uppercase product">Product 4</h3>
+                <p class="card-text text-uppercase text-center">Curabitur egestas sit amet nec blandy.</p>
+                <p class="price text-center">$ 80</p>
+              </div>
+            </a>
+          </div><!-- /card -->
+        </div><!-- /col-6 col-md-3 -->
+
+
 
       </div><!-- /row -->
     </div><!-- /container products -->
-
 
 
 

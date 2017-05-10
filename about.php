@@ -26,18 +26,19 @@
           </p>
         </p>
 
+
         <div class="facilities-gallery pb-5" data-target="#image_1" data-toggle="modal">
 
             <h3 class="text-center text-uppercase p-5"><span class="text-lowercase">checkout Our</span> facilities</h3>
 
             <a href="#" data-target="image_1" data-toggle="modal">
-              <img src="img/gallery_thumb_01.jpg" class="rounded gallery" alt="image-1" />
+              <img src="img/gallery_thumb_01.jpg" class="rounded img-fluid" alt="image-1" />
             </a>
             <a href="#" data-target="image_2" data-toggle="modal">
-              <img src="img/gallery_thumb_02.jpg" class="rounded gallery" alt="image-1" />
+              <img src="img/gallery_thumb_02.jpg" class="rounded img-fluid" alt="image-1" />
             </a>
             <a href="#" data-target="image_3" data-toggle="modal">
-              <img src="img/gallery_thumb_03.jpg" class="rounded" alt="image-1" />
+              <img src="img/gallery_thumb_03.jpg" class="rounded img-fluid" alt="image-1" />
             </a>
 
             <!-- 1st modal -->
@@ -83,6 +84,7 @@
             </div><!-- / modal -->
 
         </div><!-- / facilities-gallery -->
+
     </main>
 
 
@@ -97,6 +99,7 @@
 </div><!-- /container -->
 
 <?php
+
   include 'templates/appointment.php';
   include 'templates/footer.php';
 

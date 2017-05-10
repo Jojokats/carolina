@@ -249,7 +249,6 @@ nav.main-nav .nav-link {
 
 .products .card {
     overflow: hidden;
-    box-shadow: 0 3px 18px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19) !important;
 }
 
 .products .card a {
